@@ -14,3 +14,5 @@ The primary source of data used here is Sales_Data.csv. This dataset was given t
 - SQL - Quering and Analysis
 - PowerBi - Data Visualization
 - GitHub -  Portfolio building
+
+### Data Cleaning and Preparation
