@@ -69,4 +69,9 @@ GROUP BY
 ### 7. Data Visualization
 ---
 
+<img width="596" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/1e7c954c-0301-45d4-9be9-816bcb48d20a">
+
+<img width="926" alt="Sales Spreadsheet" src="https://github.com/user-attachments/assets/d3ff0ebc-79a4-45fb-a48c-2123c3cbb9dc">
+
+<img width="812" alt="SalesData Pivot table" src="https://github.com/user-attachments/assets/15993b90-3d3d-44e8-9093-8b66eda8aeca">
 
