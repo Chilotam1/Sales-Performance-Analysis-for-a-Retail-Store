@@ -8,8 +8,8 @@ This data analysis project aims to generate insight into the sales performance o
 The primary source of data used here is Sales_Data.csv. This dataset was given to me by Incubator Hub and similar dataset can also be gotten from any open data source online.
 
 ### Tools
-- Ms Excel
-   - Data Cleaning [Download Here](https://www.microsoft.com)
+- Ms Excel [Download Here](https://www.microsoft.com)
+   - Data Cleaning
    - Pivot Table Analysis
 - SQL - Quering and Analysis
 - PowerBi - Data Visualization
