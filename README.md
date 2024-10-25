@@ -1,5 +1,32 @@
 # LITA CAPSTONE PROJECT
+
+
 ## Project Title: Sales-Performance-Analysis-for-a-Retail-Store
+
+
+[Project Overview](#project-overview)
+   
+[Data Sources](#data-sources)
+   
+[Tools](#tools)
+   
+[Analysis Workflow](#analysis-workflow)
+   
+[Exploratory Data Analysis](#exploratory-data-analysis)
+   
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+   
+[Results/Findings](#results/findings)
+   
+[Recommendations](#recommendations)
+   
+[Limitations and Learnings](#limitations-and-learnings)
+   
+[References](#references)
+
+
 
 ### 1.  Project Overview
 ---
@@ -74,6 +101,34 @@ GROUP BY
 <img width="960" alt="SalesData Spreadsheet" src="https://github.com/user-attachments/assets/3cc9d5ee-1adb-45c1-bcfa-45add521fa42">
 
 ### 8. Results/Findings
+At the end of this data analysis , it was determined that;
+  1.  The highest-selling product by total sales value is Hat with a total of 15929 sales.
+  2.  East had the highest number of sales transaction.
+  3.  Higher percentage of the total revenue was generated from sales in the South.
+  4.  In the current year, June had the highest sales with 5938 sales.
+  5.  The total revenue per product is;
+
+      |PRODUCT|REVENUE
+      |-------|-------|
+      |Shoes|613,380|
+      |Hat|316,195|
+      |Gloves|296,900|
+      |Jacket|208,230|
+      |Socks|180,785|
+
+We can conclude that, although Hat had the highest number of sales, it didn't generate the highest revenue.
+
 ### 9. Recommendations
+Based on the analysis, we recommend the following actions;
+   - Allocate budget toward promoting Gloves, Jackets, and Socks to expand their market share. Running campaigns and discounts during colder months may be effective, as these products align with winter needs and may drive higher purchase volumes.
+   - With June identified as the highest sales month, it’s recommended to prepare ahead for similar seasonal demand in upcoming years. Increase inventory levels, especially for top products like Hats and Shoes, and plan promotional events or discounts in early June to capture customer interest.
+   - The East region shows the highest number of sales transactions, indicating a strong customer base. Allocate additional resources, such as targeted promotions and localized advertising, to further boost engagement in this high-performing region.
+   - Since Hats are the top-selling product by sales, consider prioritizing this product in marketing campaigns and feature it prominently in both online and in-store displays. 
+     
 ### 10. Limitations and Learnings
+I had to remove duplicate entries that would have affected the accuracy of my conclusion in the analysis. Through this analysis, I was able to gain more insights in handling data inconsistencies, SQL query optimization, and Power BI performance.
+
 ### 11. References
+During this analysis, I made reference to the following sources to better my analysis
+- [Ladies In Tech Africa Bootcamp||Data Analysis](https://www.youtube.com/live/ZZJiY4Tmtgo?feature=shared)
+- [W3Schools online learning](https://pathfinder.w3schools.com/learningpaths)
