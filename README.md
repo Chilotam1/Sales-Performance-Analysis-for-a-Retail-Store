@@ -73,3 +73,7 @@ GROUP BY
 <img width="960" alt="SalesData Pivot Table" src="https://github.com/user-attachments/assets/574542c0-43fc-40d1-b87e-92ab46945664">
 <img width="960" alt="SalesData Spreadsheet" src="https://github.com/user-attachments/assets/3cc9d5ee-1adb-45c1-bcfa-45add521fa42">
 
+### 8. Results/Findings
+### 9. Recommendations
+### 10. Limitations and Learnings
+### 11. References
