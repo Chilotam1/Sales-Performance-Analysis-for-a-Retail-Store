@@ -103,15 +103,17 @@ GROUP BY
 
 ### 8. Results/Findings
 At the end of this data analysis , it was determined that;
-  1.  The highest-selling product by total sales value is Shoes with a total sale of 613,380.
-  2.  East had the highest number of sold products.
-  3.  Higher percentage of the total revenue was generated from sales in the South.
-  4.  In the current year, February had the highest sales with 298,800 sales.
-  5.  The total revenue per product is;
+  1.  The product with the highest total sales value is Shoes with a total sale of 613,380.
+  2.  The highest-selling product by total quantity sold is Hat with a total of 15,929.
+  3.  East had the highest number of sold products.
+  4.  Higher percentage of the total revenue was generated from sales in the South.
+  5.  In the current year, February had the highest sales with 298,800 sales.
+  6.  The total revenue per product is;
 
-      |PRODUCT|REVENUE
+      |PRODUCT|REVENUE|
       |-------|-------|
       |Shoes|613,380|
+      |Shirt|485,600|
       |Hat|316,195|
       |Gloves|296,900|
       |Jacket|208,230|
