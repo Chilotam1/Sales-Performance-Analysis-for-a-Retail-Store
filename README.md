@@ -97,7 +97,7 @@ GROUP BY
 ---
 <img width="960" alt="SalesData Pivot Table" src="https://github.com/user-attachments/assets/46aff3dc-2a77-436c-8c42-0235b7c8b3c7">
 
-<img width="960" alt="SalesData Visualization" src="https://github.com/user-attachments/assets/bcda0486-3efa-41bf-b35c-6564bb41862a">
+<img width="960" alt="SalesData Dashboard" src="https://github.com/user-attachments/assets/8bc874f9-8818-4072-9411-2bba39517da5">
 
 <img width="960" alt="SalesData Spreadsheet" src="https://github.com/user-attachments/assets/9eb790a3-e476-43ed-99d4-21d3df47f883">
 
