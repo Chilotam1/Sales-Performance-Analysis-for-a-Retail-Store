@@ -76,7 +76,7 @@ EDA involved the exploring of the Data to answer some questions about the data s
 This includes some queries I worked with during the analysis. Example:
 
 ``` sql
-SELECT Product, SUM(Total_Revenue) AS TotalRevenue
+SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
 FROM SalesData
 GROUP BY Product
 ORDER BY TotalRevenue DESC;
@@ -85,9 +85,9 @@ ORDER BY TotalRevenue DESC;
 ``` sql
 SELECT 
     Region,
-    SUM(CASE WHEN Quantity IS NOT NULL THEN Quantity ELSE 0 END) AS Region_Sales,
-   (SUM(CASE WHEN Quantity IS NOT NULL THEN Quantity ELSE 0 END) * 100.0) / 
-   (SELECT SUM(CASE WHEN Quantity IS NOT NULL THEN Quantity ELSE 0 END) FROM SalesData) AS Total_Sales_Percentage
+    SUM(CASE WHEN Total_Revenue IS NOT NULL THEN Total_Revenue ELSE 0 END) AS Region_Sales,
+   (SUM(CASE WHEN Total_Revenue IS NOT NULL THEN Total_Revenue ELSE 0 END) * 100.0) / 
+   (SELECT SUM(CASE WHEN Total_Revenue IS NOT NULL THEN Total_Revenue ELSE 0 END) FROM SalesData) AS Total_Sales_Percentage
 FROM 
     SalesData
 GROUP BY 
@@ -95,10 +95,11 @@ GROUP BY
 ```
 ### 7. Data Visualization
 ---
-<img width="960" alt="Sales Dashboard" src="https://github.com/user-attachments/assets/4e25f7da-9663-4d32-87be-e1cd4a130dd9">
+<img width="960" alt="SalesData Pivot Table" src="https://github.com/user-attachments/assets/46aff3dc-2a77-436c-8c42-0235b7c8b3c7">
 
-<img width="960" alt="SalesData Pivot Table" src="https://github.com/user-attachments/assets/574542c0-43fc-40d1-b87e-92ab46945664">
-<img width="960" alt="SalesData Spreadsheet" src="https://github.com/user-attachments/assets/3cc9d5ee-1adb-45c1-bcfa-45add521fa42">
+<img width="960" alt="SalesData Visualization" src="https://github.com/user-attachments/assets/bcda0486-3efa-41bf-b35c-6564bb41862a">
+
+<img width="960" alt="SalesData Spreadsheet" src="https://github.com/user-attachments/assets/9eb790a3-e476-43ed-99d4-21d3df47f883">
 
 ### 8. Results/Findings
 At the end of this data analysis , it was determined that;
