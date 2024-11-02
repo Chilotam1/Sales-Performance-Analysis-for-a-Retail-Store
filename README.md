@@ -3,7 +3,6 @@
 
 ## Project Title: Sales-Performance-Analysis-for-LITA-Store
 
-
 [Project Overview](#project-overview)
    
 [Data Sources](#data-sources)
