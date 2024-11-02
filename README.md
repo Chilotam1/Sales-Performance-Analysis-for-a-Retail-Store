@@ -2,6 +2,7 @@
 
 
 ## Project Title: Sales-Performance-Analysis-for-LITA-Store
+[Recommendations](#recommendations)
 
 [Project Overview](#project-overview)
    
