@@ -27,7 +27,7 @@
 
 
 
-### 1.  Project Overview
+### 1  Project Overview
 ---
 This project presents the results of LITA store sales analysis aimed at addressing the issue of low turnover of some products and regional areas. The analysis aims to generate insight into the sales performance of LITA store, by analyzing various parameters in the data received. I seek to gather enough insight to identify trends, make data-driven recommendations and gain a deeper understanding of the store's performance.
 
