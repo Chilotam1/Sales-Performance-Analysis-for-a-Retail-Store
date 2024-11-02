@@ -8,11 +8,11 @@
    
 - [Tools](#tools)
    
-[Analysis Workflow](#analysis-workflow)
+- [Analysis Workflow](#analysis-workflow)
    
-[Exploratory Data Analysis](#exploratory-data-analysis)
+-[Exploratory Data Analysis](#exploratory-data-analysis)
    
-[Data Analysis](#data-analysis)
+- [Data Analysis](#data-analysis)
 
 [Data Visualization](#data-visualization)
    
