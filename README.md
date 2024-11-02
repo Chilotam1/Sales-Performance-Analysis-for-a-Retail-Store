@@ -1,5 +1,7 @@
 # LITA CAPSTONE PROJECT 1
 ## Project Title: Sales-Performance-Analysis-for-LITA-Store
+---
+[References](#references)
 
 
 ### 1.  Project Overview
