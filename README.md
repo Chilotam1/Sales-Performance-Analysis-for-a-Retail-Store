@@ -60,7 +60,7 @@ The primary source of data used here is Sales_Data.csv. This dataset was given t
 
 #### 4.3 PowerBi Dashboard Development
 - Data Import: Importing the raw data into PowerBi
-- Data Transformation: Removing duplicates and blank rows
+- Data Transformation: Removing duplicates and blank rows, as well as creating measures
 - Visualizations: Creating visuals such as column charts, bar charts, donut chart, and cards represent sales data.
 
 ### 5. Exploratory Data Analysis
