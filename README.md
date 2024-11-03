@@ -2,8 +2,7 @@
 ## Project Title: Sales-Performance-Analysis-for-LITA-Store
 
 ### Table of Contents
-
-[project overview](#project-overview)
+[Project Overview](#project-overview)
 
 [Data Sources](#data-sources)
    
