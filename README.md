@@ -2,19 +2,19 @@
 ## Project Title: Sales-Performance-Analysis-for-LITA-Store
 
 ### Table of Contents
-[Project Overview](#project-overview)
+   [Project Overview](#project-overview)
 
-[Data Sources](#data-sources)
+   [Data Sources](#data-sources)
    
-[Tools](#tools)
+   [Tools](#tools)
    
-[Analysis Workflow](#analysis-workflow)
+   [Analysis Workflow](#analysis-workflow)
    
-[Exploratory Data Analysis](#exploratory-data-analysis)
+   [Exploratory Data Analysis](#exploratory-data-analysis)
    
    [Data Analysis](#data-analysis)
 
-- [Data Visualization](#data-visualization)
+    [Data Visualization](#data-visualization)
    
 - [Results/Findings](#results/findings)
    
