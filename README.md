@@ -41,7 +41,7 @@ The primary source of data used here is Sales_Data.csv. This dataset was given t
 - PowerBi - Data Visualization
 - GitHub -  Portfolio building
 
-###4. Analysis Workflow
+### 4. Analysis Workflow
 ---
 #### 4.1 Data Preparation in Excel
 - Data Cleaning: Removing duplicates
