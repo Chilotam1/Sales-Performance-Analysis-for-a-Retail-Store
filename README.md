@@ -112,7 +112,7 @@ FROM
 GROUP BY 
     Region;
 ```
-### Data VisualizationS
+### Data Visualizations
 ---
 <img width="960" alt="SalesData Pivot Table" src="https://github.com/user-attachments/assets/46aff3dc-2a77-436c-8c42-0235b7c8b3c7">
 
