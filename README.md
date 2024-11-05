@@ -72,23 +72,34 @@ EDA involved the exploring of the Data to answer some questions about the data s
 ---
 This includes some queries I worked with during the analysis. Example:
 
+---Retrieve total sales of each product category---
 ``` sql
 SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
 FROM SalesData
 GROUP BY Product
 ORDER BY TotalRevenue DESC;
 ```
+---Number of sales transaction in each region---
 ```SQL
 SELECT Region, COUNT(Quantity * UnitPrice) AS Number_of_Sales_Transaction
 FROM SalesData
 GROUP BY Region;
 ```
+--- Highest-selling product by total sales value---
 ```SQL
 SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
 FROM SalesData
 GROUP BY Product
 ORDER BY TotalSales DESC;
 ```
+---calculate total revenue per Product---
+```sql
+SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
+FROM SalesData
+GROUP BY Product
+ORDER BY TotalRevenue DESC;
+```
+---calculate monthly sales totals for the current year---
 ```SQL
 SELECT 
     DATENAME(MONTH, OrderDate) AS SalesMonth, 
@@ -102,7 +113,14 @@ GROUP BY
 ORDER BY 
     TotalSales Desc;
 ```
-
+---find the top 5 customers by total purchase amount---
+```sql
+SELECT TOP 5 Customer_Id, SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
+FROM SalesData
+GROUP BY Customer_Id
+ORDER BY TotalPurchaseAmount DESC
+```
+---calculate the percentage of total sales contributed by each region---
 ``` sql
 SELECT 
     Region,
@@ -113,6 +131,29 @@ FROM
     SalesData
 GROUP BY 
     Region;
+```
+---identify products with no sales in the last quarter---
+```sql
+WITH last_quarter AS (
+    SELECT 
+        DATEADD(QUARTER, -1, GETDATE()) AS startdate,
+        GETDATE() AS end_date
+),
+split_sales AS (
+    SELECT 
+        TRIM(value) AS product,
+        Total_Revenue
+    FROM 
+        SalesData
+    CROSS APPLY STRING_SPLIT(product, ',')  -- Split the product column
+)
+SELECT 
+    DISTINCT product
+FROM 
+    split_sales
+WHERE 
+    Total_Revenue >= (SELECT startdate FROM last_quarter) 
+    AND Total_Revenue < (SELECT end_date FROM last_quarter)
 ```
 ### Data Visualizations
 ---
