@@ -21,6 +21,8 @@
 
 [Recommendations](#recommendations)
 
+[Limitations and Learnings](#limitations-and-learnings)
+
 [References](#references)
 
 ### Project Overview
